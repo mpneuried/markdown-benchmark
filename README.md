@@ -107,6 +107,8 @@ grunt build
 
 **fetch random markdowns**
 
+Fetch random markdown from the [lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) http api and save it to `data.txt`
+
 ```sh
 # fetch random markdown from http://jaspervdj.be/
 node prepare/generate_data.js
@@ -119,15 +121,19 @@ options:
 CNT=50 TMO=1000 node prepare/generate_data.js
 ```
 
-**TMO** = fetch timeout is ms to prevent overloading the lorem-markdownum http api
-**CNT** = max count of examples
+**TMO** = *default=`500`* fetch interval timeout in `ms` to prevent overloading the lorem-markdownum http api  
+**CNT** = *default=`500`* max count of examples
+
+**pre-convert to bench against precompiled markdown.**
+
+Convert every example from `data.txt` to a array element with the raw markdown in `md` and the html compiled version to `html`.
+The results will be saved to `data.json`
+This is required to do the step 2 benchmarks.
 
 ```sh
 # optional environments
-CNT=50 TMO=1000 node prepare/generate_data.js
+node prepare/generated_to_json.js
 ```
-
-**pre-convert to bench against precompiled markdown.**
 
 ## Release History
 |Version|Date|Description|
