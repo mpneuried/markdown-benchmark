@@ -4,11 +4,12 @@ markdown-benchmark
 Benchmark node.js markdown to html converter.
 
 This is a script to compare 3 markdown to html converters.
-Thanks to [Jasper Van der Jeugt](http://jaspervdj.be/) for the markdown random generator [lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum)
 
 - [Marked]( https://github.com/chjj/marked )
 - [markdown-js]( https://github.com/evilstreak/markdown-js )
 - [Showdown]( https://github.com/showdownjs/showdown )
+
+Thanks to [Jasper Van der Jeugt](http://jaspervdj.be/) for the markdown random generator [lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum)
 
 **Step 1.:**
 Benchmark the 3 converters against each other
