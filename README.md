@@ -8,7 +8,7 @@ Thanks to [Jasper Van der Jeugt](http://jaspervdj.be/) for the markdown random g
 
 - [Marked]( https://github.com/chjj/marked )
 - [markdown-js]( https://github.com/evilstreak/markdown-js )
-- [html2markdown]( https://www.npmjs.com/package/html2markdown )
+- [Showdown]( https://github.com/showdownjs/showdown )
 
 **Step 1.:**
 Benchmark the 3 converters against each other
