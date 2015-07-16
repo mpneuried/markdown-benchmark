@@ -126,8 +126,8 @@ CNT=50 TMO=1000 node prepare/generate_data.js
 
 **pre-convert to bench against precompiled markdown.**
 
-Convert every example from `data.txt` to a array element with the raw markdown in `md` and the html compiled version to `html`.
-The results will be saved to `data.json`
+Convert every example from `data.txt` to a array element with the raw markdown in `md` and the html compiled version to `html`.  
+The results will be saved to `data.json`.  
 This is required to do the step 2 benchmarks.
 
 ```sh
@@ -138,7 +138,7 @@ node prepare/generated_to_json.js
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
-|0.0.1|2015-01-29|Initial version|
+|0.0.1|2015-07-16|Initial version|
 
 ## Other projects
 
