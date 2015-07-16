@@ -1,0 +1,36 @@
+{
+  "name": "markdown-benchmark",
+  "version": "0.0.1",
+  "description": "Test and compare the speed of markdown parsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "compare",
+    "vs",
+    "markdown",
+    "parser",
+    "speed"
+  ],
+  "author": "mpneuried",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.3",
+    "request": "^2.58.0",
+    "showdown": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-benchmark": "^0.3.0",
+    "grunt-contrib-clean": "0.6.x",
+    "grunt-contrib-coffee": "0.13.x",
+    "grunt-exec": "^0.4.6",
+    "grunt-mocha-cli": "1.13.x",
+    "grunt-regarde": "0.1.x",
+    "should": "7.0.x"
+  }
+}

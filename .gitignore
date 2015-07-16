@@ -1,0 +1,25 @@
+# Gitignore markdown-benchmark
+# @author mpneuried
+
+*.profile
+*.lock
+*.conflict
+*.DS_Store
+*.supported
+.project
+.settings
+.idea
+*.sublime*
+data.*
+
+.externalToolBuilders
+back
+npm-debug.log
+/node_modules/*
+
+/results
+/prepare
+/lib
+/benchmark
+
+*.js
