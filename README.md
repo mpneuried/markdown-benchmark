@@ -19,11 +19,11 @@ Test the markdown parsers during a fake template run against precompiled html
 ## Results
 
 ### Step 1. Fastest converter
-The fastest converter is **[Marked]( https://github.com/chjj/marked )** and is up to 3x faster than the second.  
+The fastest converter is **[Marked]( https://github.com/chjj/marked )** and is up to `3x` faster than the second.  
 It can process about `5400 ops/sec`.
 
 ### Step 2. Converters vs. Precompiled
-Precompiled templating is up to 88x faster than parsing on the fly.  
+Precompiled templating is up to `88x` faster than parsing on the fly.  
 It can process about `400000 ops/sec`.
 
 ## Raw Results
