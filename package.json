@@ -1,6 +1,6 @@
 {
   "name": "markdown-benchmark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Test and compare the speed of markdown parsers",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "parser",
     "speed"
   ],
+  "repository": "git://github.com/mpneuried/markdown-benchmark.git",
+  "homepage": "https://github.com/mpneuried/markdown-benchmark",
+  "bugs": { "url": "http://github.com/mpneuried/markdown-benchmark/issues" },
+  "license": "MIT",
   "author": "mpneuried",
   "license": "MIT",
   "dependencies": {

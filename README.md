@@ -139,6 +139,8 @@ node prepare/generated_to_json.js
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
+|0.0.3|2015-07-16|Added github links to package.json|
+|0.0.2|2015-07-16|Updated readme|
 |0.0.1|2015-07-16|Initial version|
 
 ## Other projects
